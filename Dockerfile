@@ -26,6 +26,9 @@ RUN apt-get -y install r-base r-base-dev
 RUN apt-get -y install git
 # Maven
 RUN apt-get -y install maven
+# node & node.js
+RUN apt-get -y install nodejs
+RUN apt-get -y install nodejs-legacy
 
 ##### R: COMMON PACKAGES
 # To let R find Java
