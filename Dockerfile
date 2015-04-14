@@ -29,6 +29,7 @@ RUN apt-get -y install maven
 # node & node.js
 RUN apt-get -y install nodejs
 RUN apt-get -y install nodejs-legacy
+RUN apt-get -y install npm
 
 ##### R: COMMON PACKAGES
 # To let R find Java
